@@ -17,6 +17,9 @@ html {
   font-family: "Montserrat", sans-serif;
   background-color: #dcc1ab;
 }
+.Monterrat {
+  font-family: "Montserrat", sans-serif;
+}
 .i_16 {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
@@ -25,13 +28,12 @@ html {
   font-family: "Inter", sans-serif;
   font-size: 0.875rem;
 }
-.i_12 {
+.i {
   font-family: "Inter", sans-serif;
-  font-size: 0.75rem;
 }
-.i_48Italic {
+
+.i_Italic {
   font-family: "Inter", sans-serif;
-  font-size: 3rem;
   font-style: italic;
 }
 
@@ -45,15 +47,20 @@ html {
   border-radius: 3rem;
   align-items: center;
 }
-.white_button {
+.outline_button {
   width: 15.563rem;
   color: #1b5b31;
   background-color: #dcc1ab;
   border: 1px solid;
 }
-.w {
-  width: 13rem !important;
+.white_outline_button {
+  width: 12.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #ffffff;
 }
+
 .offer_button {
   align-items: center;
   color: #1b5b31;
@@ -75,7 +82,6 @@ html {
 }
 
 .offer_header {
-  margin: 0 auto;
   max-width: 65rem;
 }
 .offer_card {
