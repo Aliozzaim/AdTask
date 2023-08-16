@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+.mg-icon {
+  width: 5rem;
+  height: 5rem;
+}
+.header {
+  max-width: 1262px;
+  height: 5.563rem;
+}
+.main {
+  height: 46.063rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #dcc1ab;
+}
+.i_16 {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+.i_14 {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+}
+.i_12 {
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+}
+.i_48Italic {
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.button {
+  width: 13rem;
+  height: 3.125rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #f5f0ec;
+  background-color: #1b5b31;
+  border-radius: 3rem;
+  align-items: center;
+}
+.white_button {
+  width: 15.563rem;
+  color: #1b5b31;
+  background-color: #dcc1ab;
+  border: 1px solid;
+}
+.w {
+  width: 13rem !important;
+}
+.offer_button {
+  align-items: center;
+  color: #1b5b31;
+  width: 11rem;
+  background-color: #ffffff;
+  border-radius: 0%;
+  border-bottom: 1px solid #1b5b31;
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+.main_buttons {
+  width: 30.813rem;
+}
+.offer {
+  background-color: #f5f0ec;
+  padding-top: 7.5rem;
+  padding-bottom: 10rem;
+}
+
+.offer_header {
+  margin: 0 auto;
+  max-width: 65rem;
+}
+.offer_card {
+  border-radius: 28px;
+  max-width: 23.625rem;
+  height: 23.125rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
