@@ -555,6 +555,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -599,6 +603,14 @@ video {
   max-width: 37.25rem;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-\[65rem\] {
+  max-width: 65rem;
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -640,6 +652,11 @@ video {
   background-color: rgb(27 91 49 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#F5F0EC\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 240 236 / var(--tw-bg-opacity));
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -650,14 +667,29 @@ video {
   padding-right: 5.5rem;
 }
 
+.px-\[6\.875rem\] {
+  padding-left: 6.875rem;
+  padding-right: 6.875rem;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
+.py-\[7\.5rem\] {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
 .py-\[8\.438rem\] {
   padding-top: 8.438rem;
   padding-bottom: 8.438rem;
+}
+
+.py-\[3\.75rem\] {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
 }
 
 .pb-6 {
@@ -695,6 +727,10 @@ video {
   font-size: 1.75rem;
 }
 
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -703,10 +739,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[2\.5rem\] {
-  font-size: 2.5rem;
 }
 
 .font-bold {
@@ -721,14 +753,14 @@ video {
   line-height: 4.375rem;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-\[\#F5F0EC\] {
   --tw-text-opacity: 1;
   color: rgb(245 240 236 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .drop-shadow-md {
@@ -747,6 +779,7 @@ html {
 
 .header {
   max-width: 1262px;
+  /* %100  */
   height: 5.563rem;
 }
 
@@ -786,8 +819,16 @@ html {
   font-size: 1rem;
   color: #f5f0ec;
   background-color: #1b5b31;
+  /* ! */
   border-radius: 3rem;
   align-items: center;
+}
+
+.white_button {
+  width: 8rem !important;
+  /* ? */
+  background-color: #ffffff;
+  color: #1b5b31;
 }
 
 .outline_button {

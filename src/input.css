@@ -9,7 +9,7 @@ html {
   height: 5rem;
 }
 .header {
-  max-width: 1262px;
+  max-width: 1262px; /* %100  */
   height: 5.563rem;
 }
 .main {
@@ -43,16 +43,24 @@ html {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
   color: #f5f0ec;
-  background-color: #1b5b31;
+  background-color: #1b5b31; /* ! */
   border-radius: 3rem;
   align-items: center;
 }
+
+.white_button {
+  width: 8rem !important; /* ? */
+  background-color: #ffffff;
+  color: #1b5b31;
+}
+
 .outline_button {
   width: 15.563rem;
   color: #1b5b31;
   background-color: #dcc1ab;
   border: 1px solid;
 }
+
 .white_outline_button {
   width: 12.5rem;
   display: flex;
