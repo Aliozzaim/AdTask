@@ -55,7 +55,7 @@ html {
 }
 
 .outline_button {
-  width: 15.563rem;
+  width: 15.563rem; /* ? */
   color: #1b5b31;
   background-color: #dcc1ab;
   border: 1px solid;

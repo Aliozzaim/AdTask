@@ -579,8 +579,8 @@ video {
   margin-top: 6rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mt-\[7\.5rem\] {
+  margin-top: 7.5rem;
 }
 
 .flex {
@@ -603,10 +603,6 @@ video {
   max-width: 37.25rem;
 }
 
-.max-w-full {
-  max-width: 100%;
-}
-
 .max-w-\[65rem\] {
   max-width: 65rem;
 }
@@ -627,6 +623,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .gap-1 {
   gap: 0.25rem;
 }
@@ -643,6 +643,14 @@ video {
   gap: 0.5rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .gap-9 {
   gap: 2.25rem;
 }
@@ -655,6 +663,11 @@ video {
 .bg-\[\#F5F0EC\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 240 236 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .px-10 {
@@ -677,6 +690,21 @@ video {
   padding-bottom: 3rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-\[3\.75rem\] {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
 .py-\[7\.5rem\] {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -685,11 +713,6 @@ video {
 .py-\[8\.438rem\] {
   padding-top: 8.438rem;
   padding-bottom: 8.438rem;
-}
-
-.py-\[3\.75rem\] {
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
 }
 
 .pb-6 {
@@ -702,11 +725,6 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-5xl {
@@ -741,10 +759,6 @@ video {
   line-height: 1rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .italic {
   font-style: italic;
 }
@@ -761,11 +775,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.drop-shadow-md {
-  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 html {
@@ -833,6 +842,7 @@ html {
 
 .outline_button {
   width: 15.563rem;
+  /* ? */
   color: #1b5b31;
   background-color: #dcc1ab;
   border: 1px solid;
