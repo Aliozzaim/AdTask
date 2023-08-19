@@ -651,6 +651,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .gap-1 {
   gap: 0.25rem;
 }
@@ -1213,6 +1217,50 @@ html {
   animation-fill-mode: forwards;
 }
 
+@media not all and (min-width: 1280px) {
+  .max-xl\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-xl\:justify-center {
+    justify-content: center;
+  }
+
+  .max-xl\:px-\[5rem\] {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .max-xl\:px-\[5\.5rem\] {
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+  }
+
+  .max-xl\:px-\[4rem\] {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .max-xl\:px-\[3rem\] {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .max-xl\:px-\[1rem\] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .max-xl\:px-\[2rem\] {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .max-xl\:align-baseline {
+    vertical-align: baseline;
+  }
+}
+
 @media not all and (min-width: 1024px) {
   .max-lg\:grid {
     display: grid;
@@ -1228,6 +1276,10 @@ html {
 
   .max-lg\:max-w-\[90\%\] {
     max-width: 90%;
+  }
+
+  .max-lg\:max-w-\[85\%\] {
+    max-width: 85%;
   }
 
   .max-lg\:grid-cols-2 {
@@ -1257,8 +1309,80 @@ html {
     padding-bottom: 3.5rem;
   }
 
+  .max-lg\:px-\[3rem\] {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .max-lg\:py-\[5rem\] {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .max-lg\:pr-10 {
     padding-right: 2.5rem;
+  }
+
+  .max-lg\:align-baseline {
+    vertical-align: baseline;
+  }
+
+  .max-lg\:text-\[2rem\] {
+    font-size: 2rem;
+  }
+
+  .max-lg\:text-\[2\.1rem\] {
+    font-size: 2.1rem;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .max-md\:max-w-\[75\%\] {
+    max-width: 75%;
+  }
+
+  .max-md\:max-w-\[70\%\] {
+    max-width: 70%;
+  }
+
+  .max-md\:gap-8 {
+    gap: 2rem;
+  }
+
+  .max-md\:px-\[1rem\] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .max-md\:py-\[2rem\] {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .max-md\:py-\[3rem\] {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .max-md\:py-\[4rem\] {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .max-md\:text-\[1\.2rem\] {
+    font-size: 1.2rem;
+  }
+
+  .max-md\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
+  }
+
+  .max-md\:text-\[1\.25rem\] {
+    font-size: 1.25rem;
   }
 }
 
