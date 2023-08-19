@@ -191,7 +191,7 @@ html {
   z-index: 10;
   top: 50%;
   right: 0%;
-  transform: translate(-50%, -50%);
+
   height: 2rem;
   width: 2.5rem;
 }

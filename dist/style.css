@@ -611,20 +611,16 @@ video {
   height: 5.563rem;
 }
 
+.\!w-56 {
+  width: 14rem !important;
+}
+
 .w-4 {
   width: 1rem;
 }
 
-.w-56 {
-  width: 14rem;
-}
-
 .w-full {
   width: 100%;
-}
-
-.\!w-56 {
-  width: 14rem !important;
 }
 
 .max-w-\[37\.25rem\] {
@@ -785,10 +781,6 @@ video {
 
 .pt-\[7\.5rem\] {
   padding-top: 7.5rem;
-}
-
-.align-baseline {
-  vertical-align: baseline;
 }
 
 .text-5xl {
@@ -1056,7 +1048,6 @@ html {
   z-index: 10;
   top: 50%;
   right: 0%;
-  transform: translate(-50%, -50%);
   height: 2rem;
   width: 2.5rem;
 }
