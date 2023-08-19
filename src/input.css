@@ -3,6 +3,7 @@
 @tailwind utilities;
 html {
   scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
 }
 .mg-icon {
   width: 5rem;
@@ -38,13 +39,12 @@ html {
 }
 
 .button {
-  width: 13rem;
   height: 3.125rem;
-  font-family: "Inter", sans-serif;
   font-size: 1rem;
   color: #f5f0ec;
   background-color: #1b5b31; /* ! */
   border-radius: 3rem;
+  padding: 12px 24px 14px 24px;
   align-items: center;
 }
 
@@ -60,7 +60,12 @@ html {
   background-color: #dcc1ab;
   border: 1px solid;
 }
-
+.outline_black_button {
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #111111;
+  padding: 12px 22px 14px 22px;
+}
 .white_outline_button {
   width: 12.5rem;
   display: flex;
@@ -99,4 +104,39 @@ html {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+}
+
+.grid {
+  max-width: 90rem;
+  display: flex;
+}
+
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 28.188rem; /*451*/
+  height: 21.125rem; /*338px*/
+  float: left;
+  background: #d26;
+  margin-bottom: 20px;
+}
+
+.grid-item--width2 {
+  width: 28.25rem; /*452*/
+}
+
+.grid-item--height2 {
+  height: 28.188rem; /*451*/
+}
+.grid-item--height3 {
+  height: 28.25rem; /*452*/
+}
+.grid-item--height4 {
+  height: 37.563rem; /*600px*/
 }
