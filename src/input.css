@@ -126,26 +126,32 @@ html {
 
 /* ---- grid-item ---- */
 
+.grid {
+  max-width: 1440px;
+}
+
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
 .grid-item {
-  width: 28.188rem; /*451*/
-  height: 21.125rem; /*338px*/
+  width: 31.3%;
+  margin-bottom: 3%;
+}
+
+.gutter-sizer {
+  width: 3%;
+}
+
+.grid-item {
   float: left;
-  background: #d26;
-  margin-bottom: 20px;
 }
 
-.grid-item--width2 {
-  width: 28.25rem; /*452*/
-}
-
-.grid-item--height2 {
-  height: 28.188rem; /*451*/
-}
-.grid-item--height3 {
-  height: 28.25rem; /*452*/
-}
-.grid-item--height4 {
-  height: 37.563rem; /*600px*/
+.linear-gradient {
+  background: linear-gradient(360deg, #dcc1ab 0%, rgba(214, 183, 158, 0) 100%);
 }
 
 /* navigation*/

@@ -405,7 +405,7 @@
                 </p>
                 <button
                     class="button white_outline_button max-lg:m-auto max-sm:m-0 max-sm:text-sm 
-                 border border-[#dcc1ab] hover:bg-[#F5F0EC] hover:text-[#1b5b31] transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-[#1b5b31] focus:ring-opacity-50">Poznaj
+                 border border-[#dcc1ab] hover:bg-[#dcc1ab] hover:text-[#1b5b31] transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-[#1b5b31] focus:ring-opacity-50">Poznaj
                     nas
                     bliżej
                     <span>
@@ -419,43 +419,43 @@
             </div>
         </div>
         <!-- Realizacje -->
-        <div class="bg-[#DCC1AB]" id="Realizacje">
+        <div class="bg-[#DCC1AB] relative" id="Realizacje">
             <div class="pl-40 i pt-[7.5rem] pb-24 max-md:pl-20 max-sm:pl-10  max-xs:pl-5   ">
                 <h4 class="text-xs">Realizacje</h4>
                 <h1 class="text-5xl mt-4  max-sm:text-4xl ">Nasze <span class="italic">projekty</span></h1>
             </div>
-            <div class="grid " data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 160 }'>
-                <div class="grid-item grid-item--height4">
+            <div class="grid">
+                <div class="grid-sizer"></div>
+                <div class="grid-item">
                     <img src="../src/assets/images/Photo1.png" alt="">
                 </div>
-                <div class="grid-item grid-item--width2">
+                <div class="grid-item">
                     <img src="../src/assets/images/Photo2.png" alt="">
                 </div>
-                <div class="grid-item grid-item--height2">
+                <div class="gutter-sizer"></div>
+                <div class="grid-item">
                     <img src="../src/assets/images/Photo3.png" alt="">
                 </div>
-                <div class="grid-item grid-item--height3">
+                <div class="grid-item">
                     <img src="../src/assets/images/Photo4.png" alt="">
                 </div>
-                <div class="grid-item grid-item--width2 grid-item--height3">
+                <div class="grid-item">
                     <img src="../src/assets/images/Photo5.png" alt="">
                 </div>
-                <div class="grid-item grid-item--height4">
-                    <img src="../src/assets/images/Photo6.png" alt="">
-                </div>
+                <div class="gutter-sizer"></div>
                 <div class="grid-item">
                     <img src="../src/assets/images/Photo6.png" alt="">
                 </div>
-                <div class="grid-item   grid-item--width2 grid-item--height4">
+                <div class="grid-item">
                     <img src="../src/assets/images/Photo8.png" alt="">
                 </div>
                 <div class="grid-item">
                     <img src="../src/assets/images/Photo9.png" alt="">
                 </div>
-
             </div>
-            <div class="w-full flex justify-center">
-                <button class="button outline_black_button flex gap-2 " id="expandButton">Rozwiń
+            <div class="w-full flex justify-center absolute bottom-24 z-10">
+                <button class="button outline_black_button flex gap-2 transition-opacity duration-300"
+                    id="expandButton">Rozwiń
                     <span>
                         <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -465,6 +465,7 @@
                     </span>
                 </button>
             </div>
+            <div class="linear-gradient absolute bottom-0 w-full h-3/5 transition-opacity duration-300"></div>
         </div>
         <!-- upper footer -->
         <div class=" bg-[#F5F0EC]  py-[3.75rem]   ">
@@ -617,8 +618,7 @@
             </div>
         </div>
         <script src="app.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-        <script src="/path/to/masonry.pkgd.min.js"></script>
+        <script src="https://masonry.desandro.com/masonry.pkgd.js%22%3E</script>
 </body>
 
 </html>
