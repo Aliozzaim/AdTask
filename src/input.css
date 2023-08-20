@@ -5,10 +5,6 @@ html {
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
 }
-.mg-icon {
-  width: 5rem;
-  height: 5rem;
-}
 
 .Monterrat {
   font-family: "Montserrat", sans-serif;
@@ -31,19 +27,35 @@ html {
   border-radius: 3rem;
   padding: 12px 24px 14px 24px;
   align-items: center;
+  @media (max-width: 1024px) {
+    padding: 6px 12px 7px 12px;
+    font-size: 0.875rem !important;
+  }
+  @media (max-width: 475px) {
+    width: 10rem !important;
+    font-size: 0.75rem !important;
+  }
 }
 
 .white_button {
-  width: 8rem !important; /* ? */
+  width: 8rem !important;
   background-color: #ffffff;
   color: #1b5b31;
 }
 
 .outline_button {
-  width: 16.563rem; /* ? */
+  width: 16.563rem;
   color: #1b5b31;
   background-color: #dcc1ab;
   border: 1px solid;
+
+  @media (max-width: 1024px) {
+    width: 14.563rem !important;
+  }
+  @media (max-width: 475px) {
+    font-size: 0.75rem !important;
+    width: 12.563rem !important;
+  }
 }
 .outline_black_button {
   color: #000000;
@@ -90,6 +102,15 @@ html {
   @media screen and (max-width: 475px) {
     padding: 1.8rem;
   }
+}
+
+.move-on-hover {
+  position: relative;
+  transition: padding-left 0.3s ease-in-out;
+}
+
+.button:hover .move-on-hover {
+  padding-left: 9px;
 }
 
 .grid {
