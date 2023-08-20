@@ -249,18 +249,20 @@
             </div>
         </div>
 
-        <div class="section flex justify-between text-[#F5F0EC]  bg-[#1B5B31]" id="Ofirmie">
+        <div class="section flex justify-between max-lg:flex-col  max-lg:justify-center text-[#F5F0EC]  bg-[#1B5B31]"
+            id="Ofirmie">
             <div class="section_left">
-                <div class="section_img">
-                    <img src="../src/assets/images/Ofirmie.png" alt="Ofirmie">
+                <div class="section_img ">
+                    <img class="hidden xl:block ofirmie" src="../src/assets/images/Ofirmie.png" alt="Ofirmie">
+                    <img class="block xl:hidden  max-lg:m-auto" src="../src/assets/images/Ofirmie500.png" alt="Ofirmie">
                 </div>
             </div>
-            <div class="section_right  text-white  i max-w-[37.25rem] pr-[5.75rem] py-[8.438rem] ">
+            <div class="section_right  text-white  i max-w-[37.25rem] gap-16  mx-auto py-[8.438rem] max-lg:py-[4rem] ">
                 <p class="text-xs mb-4">O firmie</p>
-                <h1 class="text-5xl mb-10">
+                <h1 class="text-5xl mb-10 max-xl:text-4xl max-sm:text-2xl">
                     Tworzymy <br /> z pasją
                 </h1>
-                <p class="text-base mb-[4.5rem]">
+                <p class="text-base  max-md:text-sm  max-sm:!text-[0.6rem] mb-[4.5rem] ">
                     Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą <br />wykwalifikowani projektanci
                     oraz architekci,
                     których zadaniem
@@ -274,7 +276,8 @@
                     współczesnego
                     trybu życia.
                 </p>
-                <button class="button white_outline_button ">Poznaj nas bliżej
+                <button class="button white_outline_button max-lg:m-auto  max-sm:m-0   max-sm:text-sm  ">Poznaj nas
+                    bliżej
                     <span>
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -287,9 +290,9 @@
         </div>
 
         <div class="bg-[#DCC1AB]" id="Realizacje">
-            <div class="pl-40 i pt-[7.5rem] pb-24">
+            <div class="pl-40 i pt-[7.5rem] pb-24 max-md:pl-20 max-sm:pl-10  max-xs:pl-5   ">
                 <h4 class="text-xs">Realizacje</h4>
-                <h1 class="text-5xl mt-4">Nasze <span class="italic">projekty</span></h1>
+                <h1 class="text-5xl mt-4  max-sm:text-4xl ">Nasze <span class="italic">projekty</span></h1>
             </div>
             <div class="grid " data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 160 }'>
                 <div class="grid-item grid-item--height4">
