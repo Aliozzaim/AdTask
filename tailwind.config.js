@@ -14,6 +14,9 @@ module.exports = {
         "extra-loose": "2.5",
         12: "4.375rem",
       },
+      width: {
+        62: "15.5rem",
+      },
     },
   },
   plugins: [],
