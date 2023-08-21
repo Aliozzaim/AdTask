@@ -19,8 +19,8 @@
 </head>
 
 <body>
-    <div style="max-width: 1440px; margin: 0 auto;">
-        <!-- Header -->
+    <div class="max-w-[1440px] mx-auto">
+
         <header class=" flex items-center pt-6 pb-6 justify-between mx-auto h-[5.563rem] lg:px-[5.563rem] px-[2rem]">
             <a href="index.html"><svg width="115" height="20" viewBox="0 0 115 20" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -76,7 +76,6 @@
                                         fill="#111111" />
                                 </svg>
                         </li>
-
                         <li class="nav-top-item transition-opacity duration-300"><a class="nav-top_link"
                                 href="#Ofirmie">O firmie</a>
                         </li>
@@ -103,7 +102,7 @@
                 </nav>
             </div>
         </header>
-        <!-- //! HERO SECTION -->
+
         <div class="relative">
             <div class="mySlides bg-[#dcc1ab]">
                 <div
@@ -190,7 +189,7 @@
                         </div>
                     </div>
                     <div>
-                        <img src="./assets/images/AdRespect1.png" class="basis-[688px] max-md:basis-0" alt="Image 1">
+                        <img src="./assets/images/HeroPhoto2.png" class="basis-[688px] max-md:basis-0" alt="Image 1">
                     </div>
                 </div>
             </div>
@@ -211,8 +210,8 @@
                             estetyka realizacji. Oferujemy kompleksowy zakres usługz<br />
                             indywidualnym podejściem do każdego projektu.
                         </p>
-                        <div class="flex gap-9  max-xl:gap-2 max-lg:flex-col">
-                            <button class="button max-lg:w-[13rem] bg  max-md:text-sm max-sm:text-xs 
+                        <div class="flex gap-9 max-xl:gap-2 max-lg:flex-col">
+                            <button class="button max-lg:w-[13rem] bg max-md:text-sm max-sm:text-xs 
                             bg-[#dcc1ab] border border-[#000] hover:bg-[#ffffff] hover:text-[#000000] transition duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-[#1b5b31] focus:ring-opacity-50
                             
                             ">Skontaktuj się z
@@ -223,7 +222,8 @@
                                     Zobacz
                                     nasze
                                     realizacje
-                                </span> <span>
+                                </span>
+                                <span>
                                     <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -235,11 +235,10 @@
                         </div>
                     </div>
                     <div>
-                        <img src="./assets/images/AdRespect2.png" class="basis-[688px] max-md:basis-0" alt="Image 1">
+                        <img src="./assets/images/AdRespect1.1.png" class="basis-[688px] max-md:basis-0" alt="Image 1">
                     </div>
                 </div>
             </div>
-
             <a class="prev  absolute bottom-0 right-[7.15rem]  max-lg:right-[6.15rem]  hover:bg-opacity-80   p-2 bg-white  px-[2.125rem] max-lg:px-[1.65rem] py-6 max-lg:py-3 cursor-pointer"
                 onclick="plusSlides(-1)"><svg width="48" height="48" viewBox="0 0 48 48" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -257,7 +256,7 @@
                 </svg>
             </a>
         </div>
-        <!-- //! OFFER SECTION -->
+
         <div class="pt-[7.5rem] max-lg:pt-[5.5rem] pb-[10rem] bg-[#f5f0ec] i" id="offer">
             <div class="max-w-[65rem] pl-[12.5rem] max-lg:pl-[2rem]  max-md:pl-[1rem]  ">
                 <h4 class="text-xs mb-4  ">Oferta</h4>
@@ -343,7 +342,7 @@
             </div>
 
         </div>
-        <!-- Ofirmie -->
+
         <div class="section flex justify-between max-lg:flex-col  max-lg:justify-center text-[#F5F0EC]  bg-[#1B5B31]"
             id="Ofirmie">
             <div class="section_left">
@@ -383,7 +382,7 @@
                 </button>
             </div>
         </div>
-        <!-- Realizacje -->
+
         <div class="bg-[#DCC1AB] relative" id="Realizacje">
             <div class="pl-40 i pt-[7.5rem] pb-24 max-md:pl-20 max-sm:pl-10  max-xs:pl-5   ">
                 <h4 class="text-xs">Realizacje</h4>
@@ -393,59 +392,47 @@
                 <div class="grid-sizer"></div>
 
                 <div class="grid-item">
-                    <img src="./assets/images/Photo1.png" alt="" class="resim cursor-pointer"
-                        onclick="openModal('Photo1.png')">
+                    <img src="./assets/images/Photo1.png" alt="" class="cursor-pointer" onclick="openModal('Photo1')">
                 </div>
 
                 <div class="grid-item">
-                    <img src="./assets/images/Photo2.png" alt="" class="resim cursor-pointer"
-                        onclick="openModal('Photo2')">
-                </div>
-
-                <div class="gutter-sizer"></div>
-
-                <div class="grid-item">
-                    <img src="./assets/images/Photo3.png" alt="" class="resim cursor-pointer"
-                        onclick="openModal('Photo3')">
-                </div>
-
-                <div class="grid-item">
-                    <img src="./assets/images/Photo4.png" alt="" class="resim cursor-pointer"
-                        onclick="openModal('Photo4')">
-                </div>
-
-                <div class="grid-item">
-                    <img src="./assets/images/Photo5.png" alt="" class="resim cursor-pointer"
-                        onclick="openModal('Photo5')">
+                    <img src="./assets/images/Photo2.png" alt="" class="cursor-pointer" onclick="openModal('Photo2')">
                 </div>
 
                 <div class="gutter-sizer"></div>
 
                 <div class="grid-item">
-                    <img src="./assets/images/Photo6.png" alt="" class="resim cursor-pointer"
-                        onclick="openModal('Photo6.png')">
+                    <img src="./assets/images/Photo3.png" alt="" class="cursor-pointer" onclick="openModal('Photo3')">
                 </div>
 
                 <div class="grid-item">
-                    <img src="./assets/images/Photo7.png" alt="" class="resim cursor-pointer"
-                        onclick="openModal('Photo7')">
+                    <img src="./assets/images/Photo4.png" alt="" class="cursor-pointer" onclick="openModal('Photo4')">
                 </div>
 
                 <div class="grid-item">
-                    <img src="./assets/images/Photo8.png" alt="" class="resim cursor-pointer"
-                        onclick="openModal('Photo8')">
+                    <img src="./assets/images/Photo5.png" alt="" class="cursor-pointer" onclick="openModal('Photo5')">
+                </div>
+                <div class="gutter-sizer"></div>
+                <div class="grid-item">
+                    <img src="./assets/images/Photo6.png" alt="" class="cursor-pointer" onclick="openModal('Photo6')">
+                </div>
+
+                <div class="grid-item">
+                    <img src="./assets/images/Photo7.png" alt="" class="cursor-pointer" onclick="openModal('Photo7')">
+                </div>
+
+                <div class="grid-item">
+                    <img src="./assets/images/Photo8.png" alt="" class="cursor-pointer" onclick="openModal('Photo8')">
                 </div>
 
                 <div class="gutter-sizer"></div>
 
                 <div class="grid-item">
-                    <img src="./assets/images/Photo9.png" alt="" class="resim cursor-pointer"
-                        onclick="openModal('Photo9')">
+                    <img src="./assets/images/Photo9.png" alt="" class="cursor-pointer" onclick="openModal('Photo9')">
                 </div>
             </div>
 
-            <div class="modal hidden fixed inset-0 bg-black bg-opacity-90 flex justify-center items-center"
-                id="myModal">
+            <div class="modal  fixed inset-0 bg-black bg-opacity-90 flex justify-center items-center" id="myModal">
                 <span class="close absolute top-4 right-4 text-white text-3xl cursor-pointer" id="close"
                     onclick="closeModal()">&times;</span>
                 <img src="" alt="Modal Resim" class="modal-content max-w-4/5 max-h-4/5" id="modalImg">
@@ -460,7 +447,7 @@
             </div>
             <div class="linear-gradient absolute bottom-0 w-full h-3/5 transition-opacity duration-300"></div>
         </div>
-        <!-- upper footer -->
+
         <div class=" bg-[#F5F0EC]  py-[3.75rem]   ">
             <div
                 class=" text-[#F5F0EC] max-w-[65rem] mx-auto 
@@ -478,7 +465,7 @@
 
             </div>
         </div>
-        <!-- footer -->
+
         <div class="bg-black text-[#F5F0EC] py-20  i" id="Kontakt">
             <div class="max-w-[65rem] mx-auto max-lg:max-w-[90%] ">
                 <div class="mx-auto flex justify-between items-center max-sm:flex-col max-sm:gap-10 ">

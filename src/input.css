@@ -129,8 +129,6 @@ html {
   clear: both;
 }
 
-/* ---- grid-item ---- */
-
 .grid {
   max-width: 1440px;
 }
@@ -159,7 +157,6 @@ html {
   background: linear-gradient(360deg, #dcc1ab 0%, rgba(214, 183, 158, 0) 100%);
 }
 
-/* navigation*/
 @keyframes nav-button-bottom {
   0% {
     top: 0;
@@ -380,8 +377,6 @@ html {
   animation-fill-mode: forwards;
 }
 
-/* cardbox animation */
-
 .card-box {
   width: 338px;
   position: relative;
@@ -426,7 +421,6 @@ html {
   background-position: right;
 }
 
-/* Modal gizleme */
 .modal {
   display: none;
   position: fixed;
@@ -439,7 +433,6 @@ html {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* Modal içeriği */
 .modal-content {
   margin: auto;
   display: block;
@@ -447,7 +440,6 @@ html {
   max-height: 80%;
 }
 
-/* Kapatma düğmesi */
 .close {
   position: absolute;
   top: 15px;
@@ -455,10 +447,5 @@ html {
   font-size: 30px;
   font-weight: bold;
   color: white;
-  cursor: pointer;
-}
-
-/* Resim üzerine gelindiğinde cursor stilini değiştirme */
-.resim {
   cursor: pointer;
 }

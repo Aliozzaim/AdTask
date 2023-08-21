@@ -671,6 +671,10 @@ video {
   width: 100%;
 }
 
+.max-w-\[1440px\] {
+  max-width: 1440px;
+}
+
 .max-w-\[332px\] {
   max-width: 332px;
 }
@@ -1167,8 +1171,6 @@ html {
   clear: both;
 }
 
-/* ---- grid-item ---- */
-
 .grid {
   max-width: 1440px;
 }
@@ -1196,8 +1198,6 @@ html {
 .linear-gradient {
   background: linear-gradient(360deg, #dcc1ab 0%, rgba(214, 183, 158, 0) 100%);
 }
-
-/* navigation*/
 
 @keyframes nav-button-bottom {
   0% {
@@ -1437,8 +1437,6 @@ html {
   animation-fill-mode: forwards;
 }
 
-/* cardbox animation */
-
 .card-box {
   width: 338px;
   position: relative;
@@ -1484,8 +1482,6 @@ html {
   background-position: right;
 }
 
-/* Modal gizleme */
-
 .modal {
   display: none;
   position: fixed;
@@ -1498,16 +1494,12 @@ html {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* Modal içeriği */
-
 .modal-content {
   margin: auto;
   display: block;
   max-width: 80%;
   max-height: 80%;
 }
-
-/* Kapatma düğmesi */
 
 .close {
   position: absolute;
@@ -1516,12 +1508,6 @@ html {
   font-size: 30px;
   font-weight: bold;
   color: white;
-  cursor: pointer;
-}
-
-/* Resim üzerine gelindiğinde cursor stilini değiştirme */
-
-.resim {
   cursor: pointer;
 }
 

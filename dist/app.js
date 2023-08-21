@@ -11,8 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
     var gridItems = grid.querySelectorAll(".grid-item");
     var linearGradient = document.querySelector(".linear-gradient");
     linearGradient.classList.add("opacity-0");
-    var clonedItems = Array.from(gridItems).map(function (item) {
-      return item.cloneNode(true);
+    var clonedItems = Array.from(gridItems).map(function (item, index) {
+      var clonedItem = item.cloneNode(true);
+      clonedItem.setAttribute(
+        "onclick",
+        "openModal('Photo" + (index + 1) + "')"
+      );
+      clonedItem.style.zIndex = "1";
+      return clonedItem;
     });
 
     clonedItems.forEach(function (clonedItem) {
@@ -34,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchButton = document.querySelector(".search-input");
   const navTop = document.querySelector(".nav-top");
   const navTopItems = document.querySelectorAll(".nav-top-item");
-  console.log(navTopItems);
+
   searchButton.addEventListener("focus", function () {
     setTimeout(() => {
       searchButton.style.width = navTop.offsetWidth + 24 + "px";
@@ -60,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-//slider
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -87,23 +93,20 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
 }
 
-// Resmi açma işlevi
 function openModal(imageId) {
-  var img = document.getElementById(imageId);
   var modal = document.getElementById("myModal");
   var modalImg = document.getElementById("modalImg");
+  var imgSrc = "./assets/images/" + imageId + ".png"; // Resmin yolunu belirle
 
   modal.style.display = "block";
-  modalImg.src = img.src;
+  modalImg.src = imgSrc;
 }
 
-// Modal'ı kapatma işlevi
 function closeModal() {
   var modal = document.getElementById("myModal");
   modal.style.display = "none";
 }
 
-// Modal dışına tıklamayı kapatma işlevi
 window.onclick = function (event) {
   var modal = document.getElementById("myModal");
   if (event.target == modal) {
