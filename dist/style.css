@@ -1519,6 +1519,10 @@ html {
   border-style: none !important;
 }
 
+.hover\:border-none:hover {
+  border-style: none;
+}
+
 .hover\:\!bg-\[\#1b5b31\]:hover {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(27 91 49 / var(--tw-bg-opacity)) !important;
