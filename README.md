@@ -19,3 +19,12 @@ AdRespectTask is designed to provide a visually appealing and user-friendly expe
 - **Search Functionality**: The search bar enables users to find specific images by entering keywords, making image discovery more convenient.
 
 This project is an excellent starting point for building image-focused web applications and can be customized and extended as needed.
+
+## Technologies Used
+
+AdRespectTask is built using the following technologies:
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Masonry**: A JavaScript grid layout library used for the responsive image gallery.
