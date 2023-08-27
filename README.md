@@ -1,12 +1,12 @@
-# AdRespectTask
+# AdTask
 
-AdRespectTask is a web application that showcases a responsive image gallery with a Masonry layout. It allows users to explore a collection of images, view them in a modal, and navigate through a slideshow. The application also features a search functionality for easy image discovery.
+AdTask is a web application that showcases a responsive image gallery with a Masonry layout. It allows users to explore a collection of images, view them in a modal, and navigate through a slideshow. The application also features a search functionality for easy image discovery.
 
-[Live AdRespectTask](https://adrespect-task-jet.vercel.app/)
+[Live AdTask](https://adrespect-task-jet.vercel.app/)
 
 ## Description
 
-AdRespectTask is designed to provide a visually appealing and user-friendly experience for exploring and interacting with images. Whether you want to browse a curated collection of images or search for specific ones, this application makes it easy to do so. Key features include:
+AdTask is designed to provide a visually appealing and user-friendly experience for exploring and interacting with images. Whether you want to browse a curated collection of images or search for specific ones, this application makes it easy to do so. Key features include:
 
 - **Responsive Image Gallery**: The gallery is laid out using the Masonry layout, ensuring that images fit neatly even on different screen sizes.
 
@@ -22,7 +22,7 @@ This project is an excellent starting point for building image-focused web appli
 
 ## Technologies Used
 
-AdRespectTask is built using the following technologies:
+AdTask is built using the following technologies:
 
 - **HTML**
 - **CSS**
