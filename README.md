@@ -6,7 +6,7 @@ AdTask is a web application that showcases a responsive image gallery with a Mas
 
 ## Description
 
-AdTask is designed to provide a visually appealing and user-friendly experience for exploring and interacting with images. Whether you want to browse a curated collection of images or search for specific ones, this application makes it easy to do so. Key features include:
+AdTask is built to give you a beautiful and easy way to enjoy and work with images. Whether you want to explore a selection of pictures or find specific ones, this app makes it simple. Its main features include:
 
 - **Responsive Image Gallery**: The gallery is laid out using the Masonry layout, ensuring that images fit neatly even on different screen sizes.
 
