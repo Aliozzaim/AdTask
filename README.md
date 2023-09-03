@@ -18,7 +18,7 @@ AdTask is built to give you a beautiful and easy way to enjoy and work with imag
 
 - **Search Functionality**: The search bar enables users to find specific images by entering keywords, making image discovery more convenient.
 
-This project is an excellent starting point for building image-focused web applications and can be customized and extended as needed.
+This project is an excellent starting point for building image-focused web applications and can be customized and extended as needed
 
 ## Technologies Used
 
