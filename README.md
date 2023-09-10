@@ -2,7 +2,7 @@
 
 AdTask is a web application that showcases a responsive image gallery with a Masonry layout. It allows users to explore a collection of images, view them in a modal, and navigate through a slideshow. The application also features a search functionality for easy image discovery.
 
-[Live Demo AdTask](https://adrespect-task-jet.vercel.app/)
+[Live Demo AdTask](https://adtask-jet.vercel.app/)
 
 ## Description
 
